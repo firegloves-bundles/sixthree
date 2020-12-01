@@ -1,4 +1,4 @@
-`
+```
 apiVersion: entando.org/v1
 kind: EntandoDeBundle
 metadata:
@@ -17,4 +17,4 @@ spec:
       integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
       tarball: 'https://github.com/firegloves-bundles/sixthree.git'
       description: ''
-  `
+```
