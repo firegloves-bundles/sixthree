@@ -1,0 +1,17 @@
+version: 2
+code: sixthree
+description: This is the Entando SixThree bundle
+
+components:
+
+  plugins:
+    - plugins/plugin-descriptor.yaml
+
+  widgets:
+    - ui/widgets/foo/tableWidget/foo-table-widget-descriptor.yaml
+    - ui/widgets/foo/detailsWidget/foo-details-widget-descriptor.yaml
+    - ui/widgets/foo/formWidget/foo-form-widget-descriptor.yaml
+
+  languages:
+    - languages/languages-descriptor.yaml
+
