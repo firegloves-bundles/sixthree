@@ -3,7 +3,7 @@ apiVersion: "entando.org/v1"
 metadata:
   name: "sixthree-plugin"
 spec:
-  image: lcorsettientando/the-lucas:0.0.1-SNAPSHOT
+  image: kerruba/the-lucas:0.0.1-SNAPSHOT
   replicas: 1
   dbms: postgresql
   parameters: {}
