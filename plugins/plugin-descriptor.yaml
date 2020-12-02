@@ -1,6 +1,6 @@
 image: kerruba/the-lucas:0.0.1-SNAPSHOT
 dbms: postgresql
-deploymentBaseName: "SixThreePlugin"
+deploymentBaseName: "SixThreePluginNameTOooooooooooooLong"
 healthCheckPath: "/management/health"
 roles:
   - "sixthree-admin"
