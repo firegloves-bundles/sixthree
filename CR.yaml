@@ -25,24 +25,39 @@ spec:
       shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
       integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
       tarball: 'https://github.com/firegloves-bundles/sixthree.git'
-      description: 'plugin V2 name long'
+      description: 'plugin V2 name long and not deploymentbasename'
     - version: v0.0.4
       shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
       integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
       tarball: 'https://github.com/firegloves-bundles/sixthree.git'
-      description: 'plugin V2 deploymentbasename long'
+      description: 'plugin V2 name long and empty deploymentbasename'
     - version: v0.0.5
       shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
       integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
       tarball: 'https://github.com/firegloves-bundles/sixthree.git'
-      description: 'plugin V2 name short'
-    - version: v0.0.5
-      shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
-      integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
-      tarball: 'https://github.com/firegloves-bundles/sixthree.git'
-      description: 'plugin V2 deploymentbasename short'
+      description: 'plugin V2 name long and deploymentbasename long'
     - version: v0.0.6
       shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
       integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
       tarball: 'https://github.com/firegloves-bundles/sixthree.git'
-      description: 'plugin V2 name long deploymentbasename empty'
+      description: 'plugin V2 name long and deploymentbasename short'
+    - version: v0.0.7
+      shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
+      integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
+      tarball: 'https://github.com/firegloves-bundles/sixthree.git'
+      description: 'plugin V2 name short and not deploymentbasename'
+    - version: v0.0.8
+      shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
+      integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
+      tarball: 'https://github.com/firegloves-bundles/sixthree.git'
+      description: 'plugin V2 name short and empty deploymentbasename'
+    - version: v0.0.9
+      shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
+      integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
+      tarball: 'https://github.com/firegloves-bundles/sixthree.git'
+      description: 'plugin V2 name short and long deploymentbasename'
+    - version: v0.0.10
+      shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
+      integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
+      tarball: 'https://github.com/firegloves-bundles/sixthree.git'
+      description: 'plugin V2 name short and deploymentbasename short'

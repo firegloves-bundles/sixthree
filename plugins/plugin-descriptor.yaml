@@ -1,19 +1,10 @@
-kind: "EntandoPlugin"
-apiVersion: "entando.org/v1"
-metadata:
-  name: "sixthree-plugin"
-spec:
-  image: kerruba/the-lucas:0.0.1-SNAPSHOT
-  replicas: 1
-  dbms: postgresql
-  parameters: {}
-  ingressPath: "/sixthree.io/entando-plugin"
-  healthCheckPath: "/management/health"
-  securityLevel: "strict"
-  connectionConfigNames: []
-  permissions: []
-  roles:
-    - name: sixthree-admin
-      code: "sixthree-admin"
-    - name: foo-admin
-      code: "foo-admin"
+image: lcorsettientando/the-lucas:0.0.1-SNAPSHOT
+dbms: postgresql
+healthCheckPath: "/management/health"
+roles:
+  - "sixthree-admin"
+  - "foo-admin"
+ingressPath: "/sixthree.io/entando-plugin"
+permissions:
+  - clientId: realm-management
+    role: manage-users
