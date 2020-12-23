@@ -70,3 +70,13 @@ spec:
       integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
       tarball: 'https://github.com/firegloves-bundles/sixthree.git'
       description: 'plugin V2 name short and deploymentbasename short'
+    - version: v0.0.11
+      shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
+      integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
+      tarball: 'https://github.com/firegloves-bundles/sixthree.git'
+      description: 'docker image v0.0.5 NO deploymentBase NO ingressPath'
+    - version: v0.0.12
+      shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
+      integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
+      tarball: 'https://github.com/firegloves-bundles/sixthree.git'
+      description: 'docker image v0.0.1 NO deploymentBase NO ingressPath'

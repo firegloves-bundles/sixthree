@@ -1,11 +1,9 @@
-image: kerruba/the-lucas:0.0.1-SNAPSHOT
+image: lcorsettientando/the-lucas:0.0.5
 dbms: postgresql
-deploymentBaseName: "SixThreePluginNameTOooooooooooooLong"
 healthCheckPath: "/management/health"
 roles:
   - "sixthree-admin"
   - "foo-admin"
-ingressPath: "/sixthree.io/entando-plugin"
 permissions:
   - clientId: realm-management
     role: manage-users
